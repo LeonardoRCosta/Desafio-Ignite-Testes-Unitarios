@@ -3,7 +3,7 @@
   "password": "fin_api123",
   "name": "default",
   "type": "postgres",
-  "host": "fin_api_database",
+  "host": "localhost",
   "port": 5432,
   "database": "fin_api_database",
   "entities": ["./src/modules/**/entities/*.ts"],
