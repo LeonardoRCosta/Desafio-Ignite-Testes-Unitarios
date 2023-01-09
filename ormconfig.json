@@ -1,18 +1,13 @@
 {
-  "username": "postgres",
-  "password": "docker",
-
+  "username": "fin_api",
+  "password": "fin_api123",
   "name": "default",
   "type": "postgres",
-  "host": "localhost",
+  "host": "fin_api_database",
   "port": 5432,
-  "database": "fin_api",
-  "entities": [
-    "./src/modules/**/entities/*.ts"
-  ],
-  "migrations": [
-    "./src/database/migrations/*.ts"
-  ],
+  "database": "fin_api_database",
+  "entities": ["./src/modules/**/entities/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
   }
